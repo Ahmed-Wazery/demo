@@ -1,0 +1,66 @@
+body{
+    background-color: burlywood;
+}
+
+ /* .heavy img{
+   
+} */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100% ;
+    
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.container{
+    max-width: 1068px;
+    margin: auto;
+    width: 100%;
+
+}
+.logo{
+    font-size: 1.1rem;
+    color: rgb(76, 95, 76);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 32px;
+}
+section{
+    padding: 4rem 0 3rem;
+}
+.section-title{
+    font-size:1.5rem ;
+    font-weight:600 ;
+    text-align: center;
+    color: rgb(76, 95, 76);
+
+}
+.shop{
+    margin-top: 2rem;
+}
+.shop-content{
+   display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,auto));
+    gap: 1.5rem;
+}
+.product-box{
+    position:relative ;
+}
+.product-box{
+padding: 10px;
+border:2px solid rgb(207, 222, 207) ;
+transition: 0.5s;
+border-radius: 4px;
+}
+.product-img{
+    width:100% ;
+    height: auto;
+    margin-bottom: 0.5px;
+    
+}

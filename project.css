@@ -1,0 +1,148 @@
+/* h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ color: honeydew; 
+    background-color: darkolivegreen;
+    padding: 12px;
+    height: auto;
+    margin-bottom: auto;
+    border-style: groove;
+    top: 0px;
+
+ 
+}
+input[type="text"]{
+    background-color: antiquewhite;
+}
+.ahmed{
+
+    margin-left: 15px;
+   top: 0;
+}
+.wazery {
+  
+   width:100%;
+   height: auto;
+  margin-top: 25px;
+  top: 0;
+  
+
+}
+.ii:hover{
+    
+ font-style: oblique; margin-left: 15px;color: wheat; 
+ word-spacing: 3px;
+ text-decoration: none;
+ border-right: 12px;
+ border-style: groove;
+}
+.ii{
+    color: rosybrown;
+}
+.about{
+    color: rosybrown;
+}
+.about:hover{
+    font-style: oblique;
+    color: wheat;
+    word-spacing: 3px;
+    text-decoration: none;
+    border-right: 12px;
+    border-style: groove;
+}
+.light:hover{
+    color: bisque;
+    word-spacing: 3px;
+    text-decoration: none;
+    border-style:groove;
+    border-right: 12px;
+  
+}
+.light{
+    color: rosybrown;
+}
+.asd{
+    padding-left: 70px;
+} */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background:linear-gradient(#decd9a,#d6d1d1);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: burlywood;
+    position: absolute;
+    z-index: -1;
+    clip-path: circle(40% at right 70% );
+}
+.container{
+    width: 80%;
+    height: 80%;
+    background:rgba(71, 200, 157, 0.133);
+    border-radius: 20px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+nav .tittlewebsite{
+    color: rgb(76, 95, 76);
+    text-decoration: none;
+    font-size: 32px;
+    letter-spacing: 3px;
+    font-weight: 800;
+
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 6px;
+}
+nav ul li a{
+    color:rgb(76, 95, 76) ;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+nav ul li a:hover{
+    color: #349e54;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+.content .text{
+    color: rgb(76, 95, 76);
+    width: 40%;
+}
+.content .text h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+}
+.content .image{
+    width: 40%;
+}
+.content .image img{
+    width: 400px;
+}
